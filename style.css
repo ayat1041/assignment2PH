@@ -128,8 +128,10 @@ button:hover{
 .feature-list{
     display: flex;
     position: relative;
-    width: 900px;
+    width: 100vw;
     padding-bottom: 30px;
+    max-width: 100%;
+    justify-content: center;
 }
 .feature-list p{
     font-size: 14px;
@@ -154,11 +156,12 @@ button:hover{
 }
 .feature-list img{
     width: 420px;
+    height: 690px;
 }
 .ten-year{
     position: absolute;
-    bottom: 0px;
-    right: 212px;
+    bottom: 95px;
+    right: 437px;
     width: 230px;
     height: 110px;
     font-size: 32px;
