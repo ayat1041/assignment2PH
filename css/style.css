@@ -3,12 +3,17 @@
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .pilot{
     display: flex;
     flex-direction: column;
     background: rgba(255, 144, 14, 0.1);
     padding-bottom: 55px;
+    width: 100vw;
+    max-width: 100%;
     
 }
 nav{
@@ -49,7 +54,7 @@ nav h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 852px;
     text-align: center;
 }
 .brand-new .team-title h1{
@@ -79,13 +84,132 @@ button:hover{
 }
 .quick-list{
     display: flex;
-
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 130px;
 }
 .quick-list .grid-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 24px;
+    margin-right: 72px;
 }
 .quick-list .grid-section img{
-    width: 242px;
+    width: 200px;
+}
+.quick-list .text-desc{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.quick-list .text-desc h1{
+    font-size: 35px;
+}
+.quick-list .text-desc h1 span:nth-child(1){
+    color: #727272;
+}
+.quick-list .text-desc h1 span:nth-child(2){
+    color: #131313;
+    font-weight: 900;
+}
+.quick-list .text-desc h1 span:nth-child(3){
+    color: #FF900E;
+}
+.quick-list .text-desc p{
+    font-size: 14px;
+    color: #727272;
+}
+
+
+/* section- 1 feature-list */
+
+
+.feature-list{
+    display: flex;
+    position: relative;
+    width: 900px;
+    padding-bottom: 30px;
+}
+.feature-list p{
+    font-size: 14px;
+    color: #727272;
+}
+.feature-list .description{
+    display: flex;
+    flex-direction: column;
+}
+.feature-list .description h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 14px;
+}
+.feature-list .description .feature-cards{
+    margin-left: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding-left: 20px;
+    border-radius: 8px;
+}
+.feature-list img{
+    width: 420px;
+}
+.ten-year{
+    position: absolute;
+    bottom: 0px;
+    right: 240px;
+    width: 230px;
+    height: 110px;
+    font-size: 32px;
+    margin: 0;
+}
+.ten-year span:nth-child(1){
+    font-weight: 900px;
+}
+
+
+/* section- 2 some-facts */
+.some-facts{
+    display: flex;
+    flex-direction: column;
+    margin: 140px;
+    width: 100vw;
+    max-width: 100%;
+}
+.some-facts .some-facts-title{
+    font-size: 34px;
+    margin-bottom: 10px;
+    padding-left: 265px;
+}
+.some-facts .some-facts-desc{
+    font-size: 14px;
+    color: #727272;
+    padding-left: 265px;
+}
+.achievements{
+    display: flex;
+    margin-top: 60px;
+    padding: 0 265px;
+}
+.some-facts .achievements .cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF900E;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 32px 24px;
+    width: 160px;
+    margin: 0 8px;
+}
+.some-facts .achievements .cards p{
+    margin: 0;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.some-facts .achievements .cards h1{
+    margin: 0;
+    color: #424242;
+}
+.some-facts .achievements .cards img{
+    width: 35px;
+    margin-bottom: 10px;
 }
