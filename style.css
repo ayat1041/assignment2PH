@@ -336,7 +336,7 @@ footer small{
         width: 90vw;
     }
     .quick-list{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 
