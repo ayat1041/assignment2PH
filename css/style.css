@@ -79,5 +79,13 @@ button:hover{
 }
 .quick-list{
     display: flex;
-    
+
+}
+.quick-list .grid-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+}
+.quick-list .grid-section img{
+    width: 242px;
 }
